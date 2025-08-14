@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #38bdf8; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #38bdf8; 
+}
+.background {
+  background-image:url(bgcar1.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin:0;
+  color: #fff;
+  background-attachment: fixed;
+}
+.background h1{
+  text-align:center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.background p{
+  text-align: center;
+}
+.body{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   height: 80vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+ .login-box {
+      background:transparent;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(176, 19, 19, 0.2);
+      width: 300px;
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #f3e6e6;
+      background-color: transparent;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    .login-box input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      background-color:transparent;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background-color:goldenrod;
+    }
+
+    .login-box p {
+      text-align: center;
+      margin-top: 15px;
+      color: #e8dfdf;
+    }
+    .background form p{
+      cursor: pointer;
+    }
+    .input-group.error{
+      color: rgb(242,18,18);
+      font-size:16px;
+      margin-top: 5px;
+    }
+    .input-group.error input{
+      border-color: red;
+    }
+    .input-group.success input{
+      border-color:rgb(66, 244, 66);
+    }
+    .background h1{
+      padding: 20px;
+    }
+    .ima{
+      background-color: black;
+    }
